@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Twitter Hide Trends",
+  "version": "1.0",
+  "description": "Hides the 'What's happening' sidebar on Twitter",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://twitter.com/*", "https://x.com/*"],
+      "css": ["styles.css"]
+    }
+  ],
+  "icons": {
+    "48": "icon48.png"
+  }
+} 

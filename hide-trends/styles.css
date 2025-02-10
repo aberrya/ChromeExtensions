@@ -1,0 +1,19 @@
+/* Hide the "What's happening" sidebar */
+[data-testid="sidebarColumn"] {
+  display: none !important;
+}
+
+/* Hide the trending tab */
+[data-testid="trend"] {
+  display: none !important;
+}
+
+/* Hide the entire trends section */
+[data-testid="primaryColumn"] [href="/explore/tabs/trending"] {
+  display: none !important;
+}
+
+/* Hide "What's happening" section in the Explore tab */
+[data-testid="primaryColumn"] section[aria-label="Timeline: Trending now"] {
+  display: none !important;
+} 
