@@ -28,12 +28,6 @@ The extension consists of three main files:
 
 Once installed, the extension will automatically hide trending sections and the "What's happening" sidebar on Twitter/X. No additional configuration is needed.
 
-## Compatibility
-
-- Works with both twitter.com and x.com domains
-- Tested with Chrome version 100+
-- Compatible with Twitter's new X branding
-
 ## Troubleshooting
 
 If the extension stops working:
